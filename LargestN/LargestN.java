@@ -6,6 +6,6 @@ public class LargestN {
       largestN=n;
       n++;
     }
-    System.out.println("Smallest n such that n^3<12000 is "+largestN);
+    System.out.println("Largest n such that n^3<12000 is "+largestN);
   }
 }
