@@ -1,12 +1,12 @@
 import java.util.*;
 
-public class PolindromeInteger{
+public class PalindromeInteger{
   public static void main(String[] args) {
     System.out.println("Enter a three-digit integer");
     Scanner scan=new Scanner(System.in);
     int number=scan.nextInt();
     int numberTemp=number;
-    
+
     int firstDigit=number/100;
     number%=100;
     int secondDigit=number/10;
